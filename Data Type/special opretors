@@ -1,0 +1,26 @@
+package com.studyopedia;
+
+public class specal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char n='#';
+		boolean upper=(n>=65 && n<=90);
+		boolean lower=(n>=97 && n<=122);
+		boolean digit=(n>=0 && n<=9);
+		boolean value=(upper || lower  || digit);
+		if(value==true)
+		{
+		System.out.println("# is in special");
+		
+		}else {
+			System.out.println("# is not special");
+			
+		}
+		
+		
+		
+
+	}
+
+}
