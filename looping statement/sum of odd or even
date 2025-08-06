@@ -1,0 +1,26 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        int N=scan.nextInt();
+        int odd=0;
+        int even=0;
+        int valueN=Math.abs(N);
+        while(valueN>0){
+            int digit=valueN%10;
+            if(digit %2==0)
+            {
+               even+=digit;
+            }
+        
+        else{
+            odd+=digit;
+        }valueN/=10;
+        }
+    System.out.println(odd + " " + even);
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
