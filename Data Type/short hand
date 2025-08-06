@@ -1,0 +1,16 @@
+package com.studyopedia;
+
+public class shrt {
+
+	public static void main(String[] args) {
+		byte a=120;
+		a+=9;
+		a-=5;
+		a/=3;
+		a%=4;
+		System.out.println(a);
+		
+
+	}
+
+}
