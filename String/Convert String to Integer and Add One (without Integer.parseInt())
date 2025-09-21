@@ -1,0 +1,13 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        String dn=scan.nextLine();
+        int n=Integer.parseInt(dn);
+        System.out.println(n+1);
+        
+    }
+}
