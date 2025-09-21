@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+
+
+        class Solution {
+    public int singleNumber(int[] nums) {
+       
+        int n=nums.length;
+        int d=0;
+        for(int i:nums){
+             d^=i;
+         }
+         return d;
+            
+        }
+        
+    }
+
+    
