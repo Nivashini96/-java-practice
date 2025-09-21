@@ -1,0 +1,26 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        String d=scan.nextLine();
+        int c=0;
+        int v=0;
+        for(int i=0;i<d.length();i++){
+        Character ch=Character.toLowerCase(d.charAt(i)); 
+        if (Character.isLetter(ch)) { 
+        if(d.charAt(i)=='a' ||d.charAt(i)=='e' ||d.charAt(i)=='i' ||d.charAt(i)=='o' ||d.charAt(i)=='u' || 
+            d.charAt(i)=='A' ||d.charAt(i)=='E' ||d.charAt(i)=='I' ||d.charAt(i)=='O' ||d.charAt(i)=='U')
+            v++;
+            
+        else
+            c++;
+            
+        
+        }
+        }
+        System.out.print(v+" "+c);
+    }
+}
