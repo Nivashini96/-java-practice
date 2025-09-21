@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        String s=scan.nextLine();
+        String v="";
+        for(int i=s.length()-1;i>=0;i--)
+            v+=s.charAt(i);
+        if(v.equals(s)){
+            System.out.print("YES");
+        }else{
+            System.out.print("NO");
+        }
+        
+        
+       }
+}
